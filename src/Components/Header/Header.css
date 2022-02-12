@@ -41,7 +41,7 @@ color: #f64c08;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
     font-family:"Crimson Text",serif;
-    padding: 20px 0;
+    padding: 5px 20px;
     letter-spacing: 1px;
 }
 .header__right>a>h4:hover{

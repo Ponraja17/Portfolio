@@ -35,4 +35,10 @@ align-items: center;
 }
 .contact__icons >a >button{
     color: white;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+
+}
+.contact__icons >a >button:hover{
+    transform: scale(1.3);
 }

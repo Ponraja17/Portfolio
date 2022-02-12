@@ -12,17 +12,17 @@ const Contact = () => {
 <p>Email : <span>raja24pr@gmail.com</span></p>
 <p>GitHub Username : <span>@ponraja17</span></p>
 <div className="contact__icons">
-    <a href="www.linkedin.com/in/pon-raja-p17">
+    <a href="https://www.linkedin.com/in/pon-raja-p17/">
         <IconButton>
 <LinkedIn/>
         </IconButton>
     </a>
-    <a href="Google.com">
+    <a href="https://www.facebook.com/profile.php?id=100050531410064">
         <IconButton>
 <Facebook/>
         </IconButton>
     </a>
-    <a href="Google.com">
+    <a href="https://www.instagram.com/rj_fift/">
         <IconButton>
 <Instagram/>
         </IconButton>

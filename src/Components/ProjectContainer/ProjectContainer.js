@@ -1,46 +1,35 @@
 import React from 'react';
+
 import { Element } from 'react-scroll';
 import Project from '../Project/Project';
 import "./ProjectContainer.css";
+import Cgpa from "../../assets/Cgpa.png";
+import Smart from "../../assets/Smart.png";
+import UI from "../../assets/UI.png";
 
 const ProjectContainer = () => {
     const projects = [
         {
-            img: "https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg",
-            title: "Facebook",
-            desc:" a plan or scheme to do something home improvement projects ; 2 · a task or problem in school that requires work over a period",
-            link: "www.google.com",
+           
+            img: Cgpa,
+            
+            title: "CGPA calculator",
+            desc:"Developed a CGPA calculator mobile application using React native",
+            // link: "",
         },
         {
-            img: "https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg",
-            title: "Facebook",
-            desc:" a plan or scheme to do something home improvement projects ; 2 · a task or problem in school that requires work over a period",
-            link: "www.google.com",
+            img: Smart,
+            title: "Smart Irriagation System",
+            desc:"Automatic plant watering system , using arduino microcontrollers to control and sense the moisture in the soil which automatically adjusts the watering to optimal levels ",
+            // link: "",
         },
         {
-            img: "https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg",
-            title: "Facebook",
-            desc:" a plan or scheme to do something home improvement projects ; 2 · a task or problem in school that requires work over a period",
-            link: "www.google.com",
+            img : UI,
+            title: "rChat UI",
+            desc:"Designed a Profile info User Interface using React native for a chat application called rChat in rThoughts Pvt Limited.",
+            // link: "",
         },
-        {
-            img: "https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg",
-            title: "Facebook",
-            desc:" a plan or scheme to do something home improvement projects ; 2 · a task or problem in school that requires work over a period",
-            link: "www.google.com",
-        },
-        {
-            img: "https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg",
-            title: "Facebook",
-            desc:" a plan or scheme to do something home improvement projects ; 2 · a task or problem in school that requires work over a period",
-            link: "www.google.com",
-        },
-        {
-            img: "https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg",
-            title: "Facebook",
-            desc:" a plan or scheme to do something home improvement projects ; 2 · a task or problem in school that requires work over a period",
-            link: "www.google.com",
-        },
+
         
     ];
     return (
