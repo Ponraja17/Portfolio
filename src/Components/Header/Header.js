@@ -1,6 +1,8 @@
 import React from 'react';
 import{Link} from "react-scroll";
 import "./Header.css";
+import {LinkedIn} from "@material-ui/icons";
+
 
 const header = () => {
   return(
@@ -36,7 +38,8 @@ const header = () => {
                             Contact
                         </h4>
                     </Link>
-                    <h4 className="header__rightButton">Join with me</h4>
+                    <h4 className="header__rightButton"><a href="https://www.linkedin.com/in/pon-raja-p17/"><LinkedIn className="linkedin"></LinkedIn>
+        </a></h4>
                 </div>
                 
         </div>);

@@ -6,6 +6,14 @@
 margin: 200px 0 100px;
 align-items: center;
 }
+.contact>h1{
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .contact__container{
     border: 1px solid white;
@@ -17,6 +25,8 @@ align-items: center;
     justify-content: center;
     padding: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
+   
 
 }
 
@@ -24,6 +34,7 @@ align-items: center;
     font-size: 20px;
     text-align: center;
     padding-bottom: 30px;
+    color: white;
 }
 .contact__container>p >span{
     color: #f64c08;

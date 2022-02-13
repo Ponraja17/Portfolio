@@ -60,7 +60,14 @@ cursor: pointer;
 {
     background-color: #f64c08;
     color: white;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 2px;
     cursor: pointer;
+}
+.header__rightButton:hover{
+transform: scale(1.09);
+background-color: rgb(19, 105, 204);
+color: white;
+cursor: pointer;
+
 }

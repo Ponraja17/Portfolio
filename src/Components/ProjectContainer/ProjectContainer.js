@@ -35,7 +35,7 @@ const ProjectContainer = () => {
     return (
         <Element className="projectContainer" id="projects">
             <h1>Projects</h1>
-            <p>Here are some projects that helps people for daily process</p>
+            <p>Here are some of my projects I did to get hands on experience in my skills </p>
             <div className="projectContainer__projects">
                 {
                     projects.map((project, index) => {
