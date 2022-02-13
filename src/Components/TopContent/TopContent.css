@@ -47,7 +47,7 @@
 .topContent__downloadButton:hover{
     color: #f64c08;
     background-color: white;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 
@@ -65,5 +65,5 @@
 .topContent__workButton:hover{
     color: black;
     background-color: white;
-    font-weight: 600;
+    font-weight: 300;
 }

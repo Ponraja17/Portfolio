@@ -1,5 +1,5 @@
 .topContainer{
-    background : url("/Users/raja/Desktop/Pictures/screen0002.png");
+    background : url("../../assets/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
